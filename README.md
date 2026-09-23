@@ -28,4 +28,8 @@ Portfolio personnel de Mohamed BENMANSOUR — Team Lead DevOps & IA Agentique.
 
 ## Mettre à jour le CV téléchargeable
 
-Remplacer le fichier dans `assets/` par la nouvelle version du PDF, puis commit + push.
+Remplacer le fichier dans `assets/` par la nouvelle version du PDF, puis commit + push:
+
+cp "TON_NOUVEAU_CV.pdf" /home/admin/seddikbenmansour.github.io/assets/CV_BENMANSOUR_Mohamed_AgentsIA_2026.pdf
+cd /home/admin/seddikbenmansour.github.io
+git add -A && git commit -m "Update CV" && git push
